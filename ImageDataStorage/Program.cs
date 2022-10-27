@@ -76,13 +76,15 @@ namespace ImageDataStorage
                 }
 
             }
-            Bitmap map = new Bitmap()
+            int width = data.Length / height + 1;
+            Bitmap map = new Bitmap(width, height);
+            return map;
         }
 
         static int Adjust(int length, int height)
         {
             int width = length / height;
-            
+            return 0;
         }
     }
 }
