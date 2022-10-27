@@ -3,6 +3,7 @@ using System.IO;
 using System.Linq;
 using System.Collections;
 using System.Drawing;
+using System.Collections.Generic;
 
 namespace ImageDataStorage
 {
@@ -14,7 +15,11 @@ namespace ImageDataStorage
 
         static void Main(string[] args)
         {
-            
+            uint[] array = ConvertImageToArray(@"gradient.png");
+
+            Bitmap map = ConvertToImage(array);
+
+            map.Save(@"image2.png");
         }
 
         static uint ConvertToInt(this Color c)
@@ -39,22 +44,27 @@ namespace ImageDataStorage
             i -= X1 * (uint)G;
             R = (int)(i);
 
-            Color c = Color.FromArgb(R, G, B, A);
+            Color c = Color.FromArgb(A, R, G, B);
             return c;
         }
 
-        static uint[] ConvertImageToArray(string filePath)
+        public static uint[] ConvertImageToArray(string filePath)
         {
-            Bitmap image = new Bitmap(@"image.png");
+            if (!File.Exists(filePath)) return null;
+
+            Bitmap image = new Bitmap(filePath);
+            Console.WriteLine(image.Height);
             int imageSize = image.Height * image.Width;
             uint[] imageData = new uint[imageSize];
 
             int i = 0;
-            for (int h = 0; h < image.Width; h++)
+            for (int h = 0; h < image.Height; h++)
             {
-                for (int w = 0; w < image.Height; w++)
+                for (int w = 0; w < image.Width; w++)
                 {
+                    Color c = image.GetPixel(w, h);
                     imageData[i] = image.GetPixel(w, h).ConvertToInt();
+                    i++;
                 }
             }
             image.Dispose();
@@ -62,29 +72,47 @@ namespace ImageDataStorage
             return imageData;
         }
 
-        static Bitmap ConvertToImage(uint[] data, int height) { 
-            if (data.Length / height != (double)data.Length / (double)height)
+        public static Bitmap ConvertToImage(uint[] data) {
+            List<int> heights = new List<int>();
+            for (int i = 0; i < data.Length; i++)
             {
-                Console.Write("(Pixels are not evenly divisible by height. Add blank pixels and continue, or adjust height automatically? Y/N) ");
-                switch (Console.ReadLine())
-                {
-                    case "Y": height = Adjust(data.Length, height); break;
-                    case "y": height = Adjust(data.Length, height); break;
-                    case "N": break;
-                    case "n": break;
-                    default: Console.WriteLine("Invalid input"); return null;
-                }
-
+                if (IsFactor(i, data.Length)) heights.Add(i);
             }
-            int width = data.Length / height + 1;
+
+            Console.WriteLine($"The available heights are: {string.Join(", ", heights)}");
+            Console.Write("Choose a height: ");
+            string result;
+            while (!ReadIfContains(heights.Select(s => s.ToString()).ToArray(), out result)) {
+                Console.Write("\n Please enter a valid height: ");
+            }
+            int height = Convert.ToInt32(result);
+
+            int width = data.Length / height;
             Bitmap map = new Bitmap(width, height);
+
+            int index = 0;
+            for (int h = 0; h < height; h++)
+            {
+                for (int w = 0; w < width; w++)
+                {
+                    map.SetPixel(w, h, data[index].ConvertToColor());
+                    index++;
+                }
+            }
+
             return map;
         }
 
-        static int Adjust(int length, int height)
+        public static bool IsFactor(int a, int b)
         {
-            int width = length / height;
-            return 0;
+            if (a != 0 && b % a == 0) return true;
+            return false;
+        }
+
+        private static bool ReadIfContains(string[] values, out string n)
+        {
+            n = Console.ReadLine();
+            return values.Contains(n);
         }
     }
 }
