@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "LZj4zLbRR6xF7UYS2oUzC8IaA6hw/9v8QRO9fWGly9yfixk6xhzADPKWt/h5MuQdZ3pO61tuOc1g2jN8ryvnyQ==",
+  "dgSpecHash": "QjUTH6xeEUqvW0yXEURUCG+4I1cOvJ5im1QRjwaizTd7dR7PEVr5ynY0k9z8rGNra6yjsqCsM2itRGtN3zws6Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\Peter\\source\\repos\\Experiments\\ImageDataStorage\\ImageDataStorage.csproj",
   "expectedPackageFiles": [
@@ -9,8 +9,8 @@
     "C:\\Users\\Peter\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "C:\\Users\\Peter\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\Peter\\.nuget\\packages\\microsoft.win32.registry.accesscontrol\\6.0.0\\microsoft.win32.registry.accesscontrol.6.0.0.nupkg.sha512",
-    "C:\\Users\\Peter\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
-    "C:\\Users\\Peter\\.nuget\\packages\\microsoft.windows.compatibility\\6.0.0\\microsoft.windows.compatibility.6.0.0.nupkg.sha512",
+    "C:\\Users\\Peter\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.1\\microsoft.win32.systemevents.6.0.1.nupkg.sha512",
+    "C:\\Users\\Peter\\.nuget\\packages\\microsoft.windows.compatibility\\6.0.1\\microsoft.windows.compatibility.6.0.1.nupkg.sha512",
     "C:\\Users\\Peter\\.nuget\\packages\\runtime.linux-arm.runtime.native.system.io.ports\\6.0.0\\runtime.linux-arm.runtime.native.system.io.ports.6.0.0.nupkg.sha512",
     "C:\\Users\\Peter\\.nuget\\packages\\runtime.linux-arm64.runtime.native.system.io.ports\\6.0.0\\runtime.linux-arm64.runtime.native.system.io.ports.6.0.0.nupkg.sha512",
     "C:\\Users\\Peter\\.nuget\\packages\\runtime.linux-x64.runtime.native.system.io.ports\\6.0.0\\runtime.linux-x64.runtime.native.system.io.ports.6.0.0.nupkg.sha512",
@@ -25,16 +25,16 @@
     "C:\\Users\\Peter\\.nuget\\packages\\system.codedom\\6.0.0\\system.codedom.6.0.0.nupkg.sha512",
     "C:\\Users\\Peter\\.nuget\\packages\\system.componentmodel.composition\\6.0.0\\system.componentmodel.composition.6.0.0.nupkg.sha512",
     "C:\\Users\\Peter\\.nuget\\packages\\system.componentmodel.composition.registration\\6.0.0\\system.componentmodel.composition.registration.6.0.0.nupkg.sha512",
-    "C:\\Users\\Peter\\.nuget\\packages\\system.configuration.configurationmanager\\6.0.0\\system.configuration.configurationmanager.6.0.0.nupkg.sha512",
+    "C:\\Users\\Peter\\.nuget\\packages\\system.configuration.configurationmanager\\6.0.1\\system.configuration.configurationmanager.6.0.1.nupkg.sha512",
     "C:\\Users\\Peter\\.nuget\\packages\\system.data.datasetextensions\\4.5.0\\system.data.datasetextensions.4.5.0.nupkg.sha512",
-    "C:\\Users\\Peter\\.nuget\\packages\\system.data.odbc\\6.0.0\\system.data.odbc.6.0.0.nupkg.sha512",
+    "C:\\Users\\Peter\\.nuget\\packages\\system.data.odbc\\6.0.1\\system.data.odbc.6.0.1.nupkg.sha512",
     "C:\\Users\\Peter\\.nuget\\packages\\system.data.oledb\\6.0.0\\system.data.oledb.6.0.0.nupkg.sha512",
-    "C:\\Users\\Peter\\.nuget\\packages\\system.data.sqlclient\\4.8.3\\system.data.sqlclient.4.8.3.nupkg.sha512",
+    "C:\\Users\\Peter\\.nuget\\packages\\system.data.sqlclient\\4.8.4\\system.data.sqlclient.4.8.4.nupkg.sha512",
     "C:\\Users\\Peter\\.nuget\\packages\\system.diagnostics.eventlog\\6.0.0\\system.diagnostics.eventlog.6.0.0.nupkg.sha512",
-    "C:\\Users\\Peter\\.nuget\\packages\\system.diagnostics.performancecounter\\6.0.0\\system.diagnostics.performancecounter.6.0.0.nupkg.sha512",
+    "C:\\Users\\Peter\\.nuget\\packages\\system.diagnostics.performancecounter\\6.0.1\\system.diagnostics.performancecounter.6.0.1.nupkg.sha512",
     "C:\\Users\\Peter\\.nuget\\packages\\system.directoryservices\\6.0.0\\system.directoryservices.6.0.0.nupkg.sha512",
     "C:\\Users\\Peter\\.nuget\\packages\\system.directoryservices.accountmanagement\\6.0.0\\system.directoryservices.accountmanagement.6.0.0.nupkg.sha512",
-    "C:\\Users\\Peter\\.nuget\\packages\\system.directoryservices.protocols\\6.0.0\\system.directoryservices.protocols.6.0.0.nupkg.sha512",
+    "C:\\Users\\Peter\\.nuget\\packages\\system.directoryservices.protocols\\6.0.1\\system.directoryservices.protocols.6.0.1.nupkg.sha512",
     "C:\\Users\\Peter\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512",
     "C:\\Users\\Peter\\.nuget\\packages\\system.formats.asn1\\6.0.0\\system.formats.asn1.6.0.0.nupkg.sha512",
     "C:\\Users\\Peter\\.nuget\\packages\\system.io.filesystem.accesscontrol\\5.0.0\\system.io.filesystem.accesscontrol.5.0.0.nupkg.sha512",
@@ -54,9 +54,9 @@
     "C:\\Users\\Peter\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\Peter\\.nuget\\packages\\system.security.accesscontrol\\6.0.0\\system.security.accesscontrol.6.0.0.nupkg.sha512",
     "C:\\Users\\Peter\\.nuget\\packages\\system.security.cryptography.cng\\5.0.0\\system.security.cryptography.cng.5.0.0.nupkg.sha512",
-    "C:\\Users\\Peter\\.nuget\\packages\\system.security.cryptography.pkcs\\6.0.0\\system.security.cryptography.pkcs.6.0.0.nupkg.sha512",
+    "C:\\Users\\Peter\\.nuget\\packages\\system.security.cryptography.pkcs\\6.0.1\\system.security.cryptography.pkcs.6.0.1.nupkg.sha512",
     "C:\\Users\\Peter\\.nuget\\packages\\system.security.cryptography.protecteddata\\6.0.0\\system.security.cryptography.protecteddata.6.0.0.nupkg.sha512",
-    "C:\\Users\\Peter\\.nuget\\packages\\system.security.cryptography.xml\\6.0.0\\system.security.cryptography.xml.6.0.0.nupkg.sha512",
+    "C:\\Users\\Peter\\.nuget\\packages\\system.security.cryptography.xml\\6.0.1\\system.security.cryptography.xml.6.0.1.nupkg.sha512",
     "C:\\Users\\Peter\\.nuget\\packages\\system.security.permissions\\6.0.0\\system.security.permissions.6.0.0.nupkg.sha512",
     "C:\\Users\\Peter\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
     "C:\\Users\\Peter\\.nuget\\packages\\system.servicemodel.duplex\\4.9.0\\system.servicemodel.duplex.4.9.0.nupkg.sha512",
@@ -72,12 +72,5 @@
     "C:\\Users\\Peter\\.nuget\\packages\\system.web.services.description\\4.9.0\\system.web.services.description.4.9.0.nupkg.sha512",
     "C:\\Users\\Peter\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\Peter\\source\\repos\\Experiments\\ImageDataStorage\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }
