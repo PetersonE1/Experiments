@@ -12,7 +12,8 @@ namespace EncryptionAlgorithm
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine(DecryptImage("test.png"));
+            string output = DecryptImage("abstract.png");
+            EncryptStringToImage(output);
         }
 
         // Base Methods
@@ -131,6 +132,8 @@ namespace EncryptionAlgorithm
             uint[] data = ImageProcessor.ConvertImageToArray(filePath);
             uint key1 = data[0];
             uint key2 = data[1];
+            Console.WriteLine(key1);
+            Console.WriteLine(key2);
 
             List<char> temp = new List<char>();
             for (int i = 2; i < data.Length; i++)
