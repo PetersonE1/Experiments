@@ -10,12 +10,6 @@ namespace EncryptionAlgorithm
 {
     public static class EncryptionEngine
     {
-        public static void Main(string[] args)
-        {
-            EncryptFileToImageFile("input.txt", "abstract.png");
-            DecryptImageFileToFile("abstract.png", "output.txt");
-        }
-
         // Base Methods
 
         /// <summary>
