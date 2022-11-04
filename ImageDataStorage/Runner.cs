@@ -46,7 +46,6 @@ namespace ImageDataStorage
             uint c = 56;
             uint d = 78;
 
-            if (askForHeight)
             if (!askForHeight && File.Exists($"outputs/cubic-{length}-{a}-{b}-{c}-{d}-H{height}.png")) { Console.WriteLine("File already exists"); return; }
 
             uint[] array = new uint[length];
@@ -65,7 +64,6 @@ namespace ImageDataStorage
         {
             int height = ImageProcessor.Square(length);
 
-
             if (!askForHeight && File.Exists($"outputs/fibonacci-{length}-H{height}.png")) { Console.WriteLine("File already exists"); return; }
 
             uint num1 = 0;
@@ -82,7 +80,7 @@ namespace ImageDataStorage
             if (askForHeight) { height = ImageProcessor.AskHeight(length); if (File.Exists($"outputs/fibonacci-{length}-H{height}.png")) { Console.WriteLine("File already exists"); return; } }
 
             if (!File.Exists($"inputs/arrays/fibonacci-{length}")) ImageProcessor.SaveArrayToFile(array, $"inputs/arrays/fibonacci-{length}");
-            ImageProcessor.GenerateImageFromArray(array, $"outputs/fibonnaci-{length}", height);
+            ImageProcessor.GenerateImageFromArray(array, $"outputs/fibonacci-{length}", height);
         }
     }
 }
