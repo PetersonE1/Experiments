@@ -3560,9 +3560,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Peter\\source\\repos\\Experiments\\ImageDataStorage\\ImageDataStorage.csproj",
+      "projectUniqueName": "C:\\Users\\Peter\\Source\\Repos\\Experiments\\ImageDataStorage\\ImageDataStorage.csproj",
       "projectName": "ImageDataStorage",
-      "projectPath": "C:\\Users\\Peter\\source\\repos\\Experiments\\ImageDataStorage\\ImageDataStorage.csproj",
+      "projectPath": "C:\\Users\\Peter\\Source\\Repos\\Experiments\\ImageDataStorage\\ImageDataStorage.csproj",
       "packagesPath": "C:\\Users\\Peter\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Peter\\Source\\Repos\\Experiments\\ImageDataStorage\\obj\\",
       "projectStyle": "PackageReference",
