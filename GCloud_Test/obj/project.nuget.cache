@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "eXiYh+ca2Hu/9UtcadNToOgp/0+7GwcFR5g9wfG/VCHBVkYNke29NZ+Vi3WkD7Y5zqe2UX0M8o245YWeqIltyQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Peter\\source\\repos\\Experiments\\GCloud_Test\\GCloud_Test.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Peter\\.nuget\\packages\\google.api.commonprotos\\2.5.0\\google.api.commonprotos.2.5.0.nupkg.sha512",
+    "C:\\Users\\Peter\\.nuget\\packages\\google.cloud.devtools.common\\3.0.0\\google.cloud.devtools.common.3.0.0.nupkg.sha512",
+    "C:\\Users\\Peter\\.nuget\\packages\\google.protobuf\\3.18.0\\google.protobuf.3.18.0.nupkg.sha512"
+  ],
+  "logs": []
+}
