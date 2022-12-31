@@ -9,7 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EncryptionAlgorithm", "Encr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringManipulation", "StringManipulation\StringManipulation.csproj", "{FC77C9B1-1148-4015-882B-02063FEE6CE0}"
 EndProject
+<<<<<<< HEAD
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GCloud_Test", "GCloud_Test\GCloud_Test.csproj", "{BAC4F52A-035F-44CA-8BA6-282338BD5650}"
+=======
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeBased", "TimeBased\TimeBased.csproj", "{708398F1-256D-465C-84AE-C3C516DB7019}"
+>>>>>>> aa966800dd9ef120c1a1110aeff03c6072cc857b
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +33,17 @@ Global
 		{FC77C9B1-1148-4015-882B-02063FEE6CE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC77C9B1-1148-4015-882B-02063FEE6CE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC77C9B1-1148-4015-882B-02063FEE6CE0}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< HEAD
 		{BAC4F52A-035F-44CA-8BA6-282338BD5650}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BAC4F52A-035F-44CA-8BA6-282338BD5650}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BAC4F52A-035F-44CA-8BA6-282338BD5650}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BAC4F52A-035F-44CA-8BA6-282338BD5650}.Release|Any CPU.Build.0 = Release|Any CPU
+=======
+		{708398F1-256D-465C-84AE-C3C516DB7019}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{708398F1-256D-465C-84AE-C3C516DB7019}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{708398F1-256D-465C-84AE-C3C516DB7019}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{708398F1-256D-465C-84AE-C3C516DB7019}.Release|Any CPU.Build.0 = Release|Any CPU
+>>>>>>> aa966800dd9ef120c1a1110aeff03c6072cc857b
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
