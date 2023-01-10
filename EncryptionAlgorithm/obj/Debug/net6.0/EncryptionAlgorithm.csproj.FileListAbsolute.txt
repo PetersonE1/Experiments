@@ -15,7 +15,6 @@ C:\Users\Peter\source\repos\Experiments\EncryptionAlgorithm\obj\Debug\net6.0\Enc
 C:\Users\Peter\source\repos\Experiments\EncryptionAlgorithm\obj\Debug\net6.0\ref\EncryptionAlgorithm.dll
 C:\Users\Peter\source\repos\Experiments\EncryptionAlgorithm\bin\Debug\net6.0\ImageDataStorage.deps.json
 C:\Users\Peter\source\repos\Experiments\EncryptionAlgorithm\bin\Debug\net6.0\ImageDataStorage.runtimeconfig.json
-C:\Users\Peter\source\repos\Experiments\EncryptionAlgorithm\bin\Debug\net6.0\ImageDataStorage.runtimeconfig.dev.json
 C:\Users\Peter\source\repos\Experiments\EncryptionAlgorithm\bin\Debug\net6.0\ImageDataStorage.exe
 C:\Users\Peter\source\repos\Experiments\EncryptionAlgorithm\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\Peter\source\repos\Experiments\EncryptionAlgorithm\bin\Debug\net6.0\Microsoft.Extensions.ObjectPool.dll

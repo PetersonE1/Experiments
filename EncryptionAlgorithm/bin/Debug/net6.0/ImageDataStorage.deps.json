@@ -1,11 +1,11 @@
 {
   "runtimeTarget": {
-    "name": ".NETCoreApp,Version=v3.1",
+    "name": ".NETCoreApp,Version=v6.0",
     "signature": ""
   },
   "compilationOptions": {},
   "targets": {
-    ".NETCoreApp,Version=v3.1": {
+    ".NETCoreApp,Version=v6.0": {
       "ImageDataStorage/1.0.0": {
         "dependencies": {
           "Microsoft.Windows.Compatibility": "6.0.1"
@@ -24,46 +24,30 @@
       },
       "Microsoft.Extensions.ObjectPool/5.0.10": {
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.ObjectPool.dll": {
+          "lib/net5.0/Microsoft.Extensions.ObjectPool.dll": {
             "assemblyVersion": "5.0.0.0",
             "fileVersion": "5.0.1021.41022"
           }
         }
       },
-      "Microsoft.NETCore.Platforms/5.0.0": {},
-      "Microsoft.Win32.Registry/5.0.0": {
+      "Microsoft.Win32.Registry/4.7.0": {
         "dependencies": {
           "System.Security.AccessControl": "6.0.0",
           "System.Security.Principal.Windows": "5.0.0"
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.Win32.Registry.dll": {
-            "assemblyVersion": "5.0.0.0",
-            "fileVersion": "5.0.20.51904"
-          }
-        },
-        "runtimeTargets": {
-          "runtimes/win/lib/netstandard2.0/Microsoft.Win32.Registry.dll": {
-            "rid": "win",
-            "assetType": "runtime",
-            "assemblyVersion": "5.0.0.0",
-            "fileVersion": "5.0.20.51904"
-          }
         }
       },
       "Microsoft.Win32.Registry.AccessControl/6.0.0": {
         "dependencies": {
-          "Microsoft.Win32.Registry": "5.0.0",
           "System.Security.AccessControl": "6.0.0"
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Win32.Registry.AccessControl.dll": {
+          "lib/net6.0/Microsoft.Win32.Registry.AccessControl.dll": {
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.21.52210"
           }
         },
         "runtimeTargets": {
-          "runtimes/win/lib/netstandard2.0/Microsoft.Win32.Registry.AccessControl.dll": {
+          "runtimes/win/lib/net6.0/Microsoft.Win32.Registry.AccessControl.dll": {
             "rid": "win",
             "assetType": "runtime",
             "assemblyVersion": "6.0.0.0",
@@ -73,13 +57,13 @@
       },
       "Microsoft.Win32.SystemEvents/6.0.1": {
         "runtime": {
-          "lib/netcoreapp3.1/Microsoft.Win32.SystemEvents.dll": {
+          "lib/net6.0/Microsoft.Win32.SystemEvents.dll": {
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.422.16404"
           }
         },
         "runtimeTargets": {
-          "runtimes/win/lib/netcoreapp3.1/Microsoft.Win32.SystemEvents.dll": {
+          "runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll": {
             "rid": "win",
             "assetType": "runtime",
             "assemblyVersion": "6.0.0.0",
@@ -89,14 +73,12 @@
       },
       "Microsoft.Windows.Compatibility/6.0.1": {
         "dependencies": {
-          "Microsoft.Win32.Registry": "5.0.0",
           "Microsoft.Win32.Registry.AccessControl": "6.0.0",
           "Microsoft.Win32.SystemEvents": "6.0.1",
           "System.CodeDom": "6.0.0",
           "System.ComponentModel.Composition": "6.0.0",
           "System.ComponentModel.Composition.Registration": "6.0.0",
           "System.Configuration.ConfigurationManager": "6.0.1",
-          "System.Data.DataSetExtensions": "4.5.0",
           "System.Data.Odbc": "6.0.1",
           "System.Data.OleDb": "6.0.0",
           "System.Data.SqlClient": "4.8.4",
@@ -106,23 +88,16 @@
           "System.DirectoryServices.AccountManagement": "6.0.0",
           "System.DirectoryServices.Protocols": "6.0.1",
           "System.Drawing.Common": "6.0.0",
-          "System.IO.FileSystem.AccessControl": "5.0.0",
           "System.IO.Packaging": "6.0.0",
-          "System.IO.Pipes.AccessControl": "5.0.0",
           "System.IO.Ports": "6.0.0",
           "System.Management": "6.0.0",
           "System.Reflection.Context": "6.0.0",
-          "System.Reflection.Emit": "4.7.0",
-          "System.Reflection.Emit.ILGeneration": "4.7.0",
-          "System.Reflection.Emit.Lightweight": "4.7.0",
           "System.Runtime.Caching": "6.0.0",
           "System.Security.AccessControl": "6.0.0",
-          "System.Security.Cryptography.Cng": "5.0.0",
           "System.Security.Cryptography.Pkcs": "6.0.1",
           "System.Security.Cryptography.ProtectedData": "6.0.0",
           "System.Security.Cryptography.Xml": "6.0.1",
           "System.Security.Permissions": "6.0.0",
-          "System.Security.Principal.Windows": "5.0.0",
           "System.ServiceModel.Duplex": "4.9.0",
           "System.ServiceModel.Http": "4.9.0",
           "System.ServiceModel.NetTcp": "4.9.0",
@@ -224,10 +199,9 @@
           }
         }
       },
-      "System.Buffers/4.5.1": {},
       "System.CodeDom/6.0.0": {
         "runtime": {
-          "lib/netstandard2.0/System.CodeDom.dll": {
+          "lib/net6.0/System.CodeDom.dll": {
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.21.52210"
           }
@@ -235,7 +209,7 @@
       },
       "System.ComponentModel.Composition/6.0.0": {
         "runtime": {
-          "lib/netcoreapp3.1/System.ComponentModel.Composition.dll": {
+          "lib/net6.0/System.ComponentModel.Composition.dll": {
             "assemblyVersion": "4.0.0.0",
             "fileVersion": "6.0.21.52210"
           }
@@ -247,7 +221,7 @@
           "System.Reflection.Context": "6.0.0"
         },
         "runtime": {
-          "lib/netstandard2.1/System.ComponentModel.Composition.Registration.dll": {
+          "lib/net6.0/System.ComponentModel.Composition.Registration.dll": {
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.21.52210"
           }
@@ -259,43 +233,66 @@
           "System.Security.Permissions": "6.0.0"
         },
         "runtime": {
-          "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll": {
+          "lib/net6.0/System.Configuration.ConfigurationManager.dll": {
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.922.41905"
           }
         }
       },
-      "System.Data.DataSetExtensions/4.5.0": {},
       "System.Data.Odbc/6.0.1": {
         "dependencies": {
           "System.Text.Encoding.CodePages": "6.0.0"
         },
         "runtime": {
-          "lib/netcoreapp3.1/System.Data.Odbc.dll": {
+          "lib/net6.0/System.Data.Odbc.dll": {
             "assemblyVersion": "6.0.0.1",
             "fileVersion": "6.0.922.41905"
           }
         },
         "runtimeTargets": {
-          "runtimes/freebsd/lib/netcoreapp3.1/System.Data.Odbc.dll": {
+          "runtimes/freebsd/lib/net6.0/System.Data.Odbc.dll": {
             "rid": "freebsd",
             "assetType": "runtime",
             "assemblyVersion": "6.0.0.1",
             "fileVersion": "6.0.922.41905"
           },
-          "runtimes/linux/lib/netcoreapp3.1/System.Data.Odbc.dll": {
+          "runtimes/illumos/lib/net6.0/System.Data.Odbc.dll": {
+            "rid": "illumos",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.1",
+            "fileVersion": "6.0.922.41905"
+          },
+          "runtimes/ios/lib/net6.0/System.Data.Odbc.dll": {
+            "rid": "ios",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.1",
+            "fileVersion": "6.0.922.41905"
+          },
+          "runtimes/linux/lib/net6.0/System.Data.Odbc.dll": {
             "rid": "linux",
             "assetType": "runtime",
             "assemblyVersion": "6.0.0.1",
             "fileVersion": "6.0.922.41905"
           },
-          "runtimes/osx/lib/netcoreapp3.1/System.Data.Odbc.dll": {
+          "runtimes/osx/lib/net6.0/System.Data.Odbc.dll": {
             "rid": "osx",
             "assetType": "runtime",
             "assemblyVersion": "6.0.0.1",
             "fileVersion": "6.0.922.41905"
           },
-          "runtimes/win/lib/netcoreapp3.1/System.Data.Odbc.dll": {
+          "runtimes/solaris/lib/net6.0/System.Data.Odbc.dll": {
+            "rid": "solaris",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.1",
+            "fileVersion": "6.0.922.41905"
+          },
+          "runtimes/tvos/lib/net6.0/System.Data.Odbc.dll": {
+            "rid": "tvos",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.1",
+            "fileVersion": "6.0.922.41905"
+          },
+          "runtimes/win/lib/net6.0/System.Data.Odbc.dll": {
             "rid": "win",
             "assetType": "runtime",
             "assemblyVersion": "6.0.0.1",
@@ -305,20 +302,17 @@
       },
       "System.Data.OleDb/6.0.0": {
         "dependencies": {
-          "Microsoft.Win32.Registry": "5.0.0",
           "System.Configuration.ConfigurationManager": "6.0.1",
-          "System.Diagnostics.PerformanceCounter": "6.0.1",
-          "System.Memory": "4.5.4",
-          "System.Security.Principal.Windows": "5.0.0"
+          "System.Diagnostics.PerformanceCounter": "6.0.1"
         },
         "runtime": {
-          "lib/netstandard2.0/System.Data.OleDb.dll": {
+          "lib/net6.0/System.Data.OleDb.dll": {
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.21.52210"
           }
         },
         "runtimeTargets": {
-          "runtimes/win/lib/netstandard2.0/System.Data.OleDb.dll": {
+          "runtimes/win/lib/net6.0/System.Data.OleDb.dll": {
             "rid": "win",
             "assetType": "runtime",
             "assemblyVersion": "6.0.0.0",
@@ -328,7 +322,7 @@
       },
       "System.Data.SqlClient/4.8.4": {
         "dependencies": {
-          "Microsoft.Win32.Registry": "5.0.0",
+          "Microsoft.Win32.Registry": "4.7.0",
           "System.Security.Principal.Windows": "5.0.0",
           "runtime.native.System.Data.SqlClient.sni": "4.7.0"
         },
@@ -354,24 +348,20 @@
         }
       },
       "System.Diagnostics.EventLog/6.0.0": {
-        "dependencies": {
-          "Microsoft.Win32.Registry": "5.0.0",
-          "System.Security.Principal.Windows": "5.0.0"
-        },
         "runtime": {
-          "lib/netcoreapp3.1/System.Diagnostics.EventLog.dll": {
+          "lib/net6.0/System.Diagnostics.EventLog.dll": {
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.21.52210"
           }
         },
         "runtimeTargets": {
-          "runtimes/win/lib/netcoreapp3.1/System.Diagnostics.EventLog.Messages.dll": {
+          "runtimes/win/lib/net6.0/System.Diagnostics.EventLog.Messages.dll": {
             "rid": "win",
             "assetType": "runtime",
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "0.0.0.0"
           },
-          "runtimes/win/lib/netcoreapp3.1/System.Diagnostics.EventLog.dll": {
+          "runtimes/win/lib/net6.0/System.Diagnostics.EventLog.dll": {
             "rid": "win",
             "assetType": "runtime",
             "assemblyVersion": "6.0.0.0",
@@ -381,18 +371,16 @@
       },
       "System.Diagnostics.PerformanceCounter/6.0.1": {
         "dependencies": {
-          "Microsoft.Win32.Registry": "5.0.0",
-          "System.Configuration.ConfigurationManager": "6.0.1",
-          "System.Security.Principal.Windows": "5.0.0"
+          "System.Configuration.ConfigurationManager": "6.0.1"
         },
         "runtime": {
-          "lib/netcoreapp3.1/System.Diagnostics.PerformanceCounter.dll": {
+          "lib/net6.0/System.Diagnostics.PerformanceCounter.dll": {
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.422.16404"
           }
         },
         "runtimeTargets": {
-          "runtimes/win/lib/netcoreapp3.1/System.Diagnostics.PerformanceCounter.dll": {
+          "runtimes/win/lib/net6.0/System.Diagnostics.PerformanceCounter.dll": {
             "rid": "win",
             "assetType": "runtime",
             "assemblyVersion": "6.0.0.0",
@@ -402,19 +390,17 @@
       },
       "System.DirectoryServices/6.0.0": {
         "dependencies": {
-          "System.IO.FileSystem.AccessControl": "5.0.0",
           "System.Security.AccessControl": "6.0.0",
-          "System.Security.Permissions": "6.0.0",
-          "System.Security.Principal.Windows": "5.0.0"
+          "System.Security.Permissions": "6.0.0"
         },
         "runtime": {
-          "lib/netcoreapp3.1/System.DirectoryServices.dll": {
+          "lib/net6.0/System.DirectoryServices.dll": {
             "assemblyVersion": "4.0.0.0",
             "fileVersion": "6.0.21.52210"
           }
         },
         "runtimeTargets": {
-          "runtimes/win/lib/netcoreapp3.1/System.DirectoryServices.dll": {
+          "runtimes/win/lib/net6.0/System.DirectoryServices.dll": {
             "rid": "win",
             "assetType": "runtime",
             "assemblyVersion": "4.0.0.0",
@@ -427,18 +413,16 @@
           "System.Configuration.ConfigurationManager": "6.0.1",
           "System.DirectoryServices": "6.0.0",
           "System.DirectoryServices.Protocols": "6.0.1",
-          "System.IO.FileSystem.AccessControl": "5.0.0",
-          "System.Security.AccessControl": "6.0.0",
-          "System.Security.Principal.Windows": "5.0.0"
+          "System.Security.AccessControl": "6.0.0"
         },
         "runtime": {
-          "lib/netcoreapp3.1/System.DirectoryServices.AccountManagement.dll": {
+          "lib/net6.0/System.DirectoryServices.AccountManagement.dll": {
             "assemblyVersion": "4.0.0.0",
             "fileVersion": "6.0.21.52210"
           }
         },
         "runtimeTargets": {
-          "runtimes/win/lib/netcoreapp3.1/System.DirectoryServices.AccountManagement.dll": {
+          "runtimes/win/lib/net6.0/System.DirectoryServices.AccountManagement.dll": {
             "rid": "win",
             "assetType": "runtime",
             "assemblyVersion": "4.0.0.0",
@@ -447,29 +431,26 @@
         }
       },
       "System.DirectoryServices.Protocols/6.0.1": {
-        "dependencies": {
-          "System.Security.Principal.Windows": "5.0.0"
-        },
         "runtime": {
-          "lib/netcoreapp3.1/System.DirectoryServices.Protocols.dll": {
+          "lib/net6.0/System.DirectoryServices.Protocols.dll": {
             "assemblyVersion": "6.0.0.1",
             "fileVersion": "6.0.222.6406"
           }
         },
         "runtimeTargets": {
-          "runtimes/linux/lib/netcoreapp3.1/System.DirectoryServices.Protocols.dll": {
+          "runtimes/linux/lib/net6.0/System.DirectoryServices.Protocols.dll": {
             "rid": "linux",
             "assetType": "runtime",
             "assemblyVersion": "6.0.0.1",
             "fileVersion": "6.0.222.6406"
           },
-          "runtimes/osx/lib/netcoreapp3.1/System.DirectoryServices.Protocols.dll": {
+          "runtimes/osx/lib/net6.0/System.DirectoryServices.Protocols.dll": {
             "rid": "osx",
             "assetType": "runtime",
             "assemblyVersion": "6.0.0.1",
             "fileVersion": "6.0.222.6406"
           },
-          "runtimes/win/lib/netcoreapp3.1/System.DirectoryServices.Protocols.dll": {
+          "runtimes/win/lib/net6.0/System.DirectoryServices.Protocols.dll": {
             "rid": "win",
             "assetType": "runtime",
             "assemblyVersion": "6.0.0.1",
@@ -482,19 +463,19 @@
           "Microsoft.Win32.SystemEvents": "6.0.1"
         },
         "runtime": {
-          "lib/netcoreapp3.1/System.Drawing.Common.dll": {
+          "lib/net6.0/System.Drawing.Common.dll": {
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.21.52210"
           }
         },
         "runtimeTargets": {
-          "runtimes/unix/lib/netcoreapp3.1/System.Drawing.Common.dll": {
+          "runtimes/unix/lib/net6.0/System.Drawing.Common.dll": {
             "rid": "unix",
             "assetType": "runtime",
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.21.52210"
           },
-          "runtimes/win/lib/netcoreapp3.1/System.Drawing.Common.dll": {
+          "runtimes/win/lib/net6.0/System.Drawing.Common.dll": {
             "rid": "win",
             "assetType": "runtime",
             "assemblyVersion": "6.0.0.0",
@@ -502,73 +483,33 @@
           }
         }
       },
-      "System.Formats.Asn1/6.0.0": {
-        "dependencies": {
-          "System.Buffers": "4.5.1",
-          "System.Memory": "4.5.4"
-        },
-        "runtime": {
-          "lib/netstandard2.0/System.Formats.Asn1.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.21.52210"
-          }
-        }
-      },
-      "System.IO.FileSystem.AccessControl/5.0.0": {
-        "dependencies": {
-          "System.Security.AccessControl": "6.0.0",
-          "System.Security.Principal.Windows": "5.0.0"
-        },
-        "runtime": {
-          "lib/netstandard2.0/System.IO.FileSystem.AccessControl.dll": {
-            "assemblyVersion": "5.0.0.0",
-            "fileVersion": "5.0.20.51904"
-          }
-        },
-        "runtimeTargets": {
-          "runtimes/win/lib/netstandard2.0/System.IO.FileSystem.AccessControl.dll": {
-            "rid": "win",
-            "assetType": "runtime",
-            "assemblyVersion": "5.0.0.0",
-            "fileVersion": "5.0.20.51904"
-          }
-        }
-      },
+      "System.Formats.Asn1/6.0.0": {},
       "System.IO.Packaging/6.0.0": {
         "runtime": {
-          "lib/netstandard2.0/System.IO.Packaging.dll": {
+          "lib/net6.0/System.IO.Packaging.dll": {
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.21.52210"
           }
-        }
-      },
-      "System.IO.Pipes.AccessControl/5.0.0": {
-        "dependencies": {
-          "Microsoft.NETCore.Platforms": "5.0.0",
-          "System.Security.AccessControl": "6.0.0",
-          "System.Security.Principal.Windows": "5.0.0"
         }
       },
       "System.IO.Ports/6.0.0": {
         "dependencies": {
-          "Microsoft.Win32.Registry": "5.0.0",
-          "System.Memory": "4.5.4",
           "runtime.native.System.IO.Ports": "6.0.0"
         },
         "runtime": {
-          "lib/netstandard2.0/System.IO.Ports.dll": {
+          "lib/net6.0/System.IO.Ports.dll": {
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.21.52210"
           }
         },
         "runtimeTargets": {
-          "runtimes/unix/lib/netstandard2.0/System.IO.Ports.dll": {
+          "runtimes/unix/lib/net6.0/System.IO.Ports.dll": {
             "rid": "unix",
             "assetType": "runtime",
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.21.52210"
           },
-          "runtimes/win/lib/netstandard2.0/System.IO.Ports.dll": {
+          "runtimes/win/lib/net6.0/System.IO.Ports.dll": {
             "rid": "win",
             "assetType": "runtime",
             "assemblyVersion": "6.0.0.0",
@@ -578,17 +519,16 @@
       },
       "System.Management/6.0.0": {
         "dependencies": {
-          "Microsoft.Win32.Registry": "5.0.0",
           "System.CodeDom": "6.0.0"
         },
         "runtime": {
-          "lib/netcoreapp3.1/System.Management.dll": {
+          "lib/net6.0/System.Management.dll": {
             "assemblyVersion": "4.0.0.0",
             "fileVersion": "6.0.21.52210"
           }
         },
         "runtimeTargets": {
-          "runtimes/win/lib/netcoreapp3.1/System.Management.dll": {
+          "runtimes/win/lib/net6.0/System.Management.dll": {
             "rid": "win",
             "assetType": "runtime",
             "assemblyVersion": "4.0.0.0",
@@ -596,7 +536,6 @@
           }
         }
       },
-      "System.Memory/4.5.4": {},
       "System.Numerics.Vectors/4.5.0": {},
       "System.Private.ServiceModel/4.9.0": {
         "dependencies": {
@@ -657,35 +596,25 @@
       },
       "System.Reflection.Context/6.0.0": {
         "runtime": {
-          "lib/netstandard2.1/System.Reflection.Context.dll": {
+          "lib/net6.0/System.Reflection.Context.dll": {
             "assemblyVersion": "4.0.3.0",
             "fileVersion": "6.0.21.52210"
           }
         }
       },
-      "System.Reflection.DispatchProxy/4.7.1": {
-        "runtime": {
-          "lib/netcoreapp2.0/System.Reflection.DispatchProxy.dll": {
-            "assemblyVersion": "4.0.6.0",
-            "fileVersion": "4.700.20.21406"
-          }
-        }
-      },
-      "System.Reflection.Emit/4.7.0": {},
-      "System.Reflection.Emit.ILGeneration/4.7.0": {},
-      "System.Reflection.Emit.Lightweight/4.7.0": {},
+      "System.Reflection.DispatchProxy/4.7.1": {},
       "System.Runtime.Caching/6.0.0": {
         "dependencies": {
           "System.Configuration.ConfigurationManager": "6.0.1"
         },
         "runtime": {
-          "lib/netcoreapp3.1/System.Runtime.Caching.dll": {
+          "lib/net6.0/System.Runtime.Caching.dll": {
             "assemblyVersion": "4.0.0.0",
             "fileVersion": "6.0.21.52210"
           }
         },
         "runtimeTargets": {
-          "runtimes/win/lib/netcoreapp3.1/System.Runtime.Caching.dll": {
+          "runtimes/win/lib/net6.0/System.Runtime.Caching.dll": {
             "rid": "win",
             "assetType": "runtime",
             "assemblyVersion": "4.0.0.0",
@@ -693,65 +622,20 @@
           }
         }
       },
-      "System.Runtime.CompilerServices.Unsafe/6.0.0": {
-        "runtime": {
-          "lib/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.21.52210"
-          }
-        }
-      },
-      "System.Security.AccessControl/6.0.0": {
-        "dependencies": {
-          "System.Security.Principal.Windows": "5.0.0"
-        },
-        "runtime": {
-          "lib/netstandard2.0/System.Security.AccessControl.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.21.52210"
-          }
-        },
-        "runtimeTargets": {
-          "runtimes/win/lib/netstandard2.0/System.Security.AccessControl.dll": {
-            "rid": "win",
-            "assetType": "runtime",
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.21.52210"
-          }
-        }
-      },
-      "System.Security.Cryptography.Cng/5.0.0": {
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {},
+      "System.Security.AccessControl/6.0.0": {},
+      "System.Security.Cryptography.Pkcs/6.0.1": {
         "dependencies": {
           "System.Formats.Asn1": "6.0.0"
         },
         "runtime": {
-          "lib/netcoreapp3.0/System.Security.Cryptography.Cng.dll": {
-            "assemblyVersion": "5.0.0.0",
-            "fileVersion": "5.0.20.51904"
-          }
-        },
-        "runtimeTargets": {
-          "runtimes/win/lib/netcoreapp3.0/System.Security.Cryptography.Cng.dll": {
-            "rid": "win",
-            "assetType": "runtime",
-            "assemblyVersion": "5.0.0.0",
-            "fileVersion": "5.0.20.51904"
-          }
-        }
-      },
-      "System.Security.Cryptography.Pkcs/6.0.1": {
-        "dependencies": {
-          "System.Formats.Asn1": "6.0.0",
-          "System.Security.Cryptography.Cng": "5.0.0"
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/System.Security.Cryptography.Pkcs.dll": {
+          "lib/net6.0/System.Security.Cryptography.Pkcs.dll": {
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.522.21309"
           }
         },
         "runtimeTargets": {
-          "runtimes/win/lib/netcoreapp3.1/System.Security.Cryptography.Pkcs.dll": {
+          "runtimes/win/lib/net6.0/System.Security.Cryptography.Pkcs.dll": {
             "rid": "win",
             "assetType": "runtime",
             "assemblyVersion": "6.0.0.0",
@@ -760,17 +644,14 @@
         }
       },
       "System.Security.Cryptography.ProtectedData/6.0.0": {
-        "dependencies": {
-          "System.Memory": "4.5.4"
-        },
         "runtime": {
-          "lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {
+          "lib/net6.0/System.Security.Cryptography.ProtectedData.dll": {
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.21.52210"
           }
         },
         "runtimeTargets": {
-          "runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {
+          "runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll": {
             "rid": "win",
             "assetType": "runtime",
             "assemblyVersion": "6.0.0.0",
@@ -780,12 +661,11 @@
       },
       "System.Security.Cryptography.Xml/6.0.1": {
         "dependencies": {
-          "System.Memory": "4.5.4",
           "System.Security.AccessControl": "6.0.0",
           "System.Security.Cryptography.Pkcs": "6.0.1"
         },
         "runtime": {
-          "lib/netstandard2.0/System.Security.Cryptography.Xml.dll": {
+          "lib/net6.0/System.Security.Cryptography.Xml.dll": {
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.822.36306"
           }
@@ -797,41 +677,20 @@
           "System.Windows.Extensions": "6.0.0"
         },
         "runtime": {
-          "lib/netcoreapp3.1/System.Security.Permissions.dll": {
+          "lib/net6.0/System.Security.Permissions.dll": {
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.21.52210"
           }
         }
       },
-      "System.Security.Principal.Windows/5.0.0": {
-        "runtime": {
-          "lib/netstandard2.0/System.Security.Principal.Windows.dll": {
-            "assemblyVersion": "5.0.0.0",
-            "fileVersion": "5.0.20.51904"
-          }
-        },
-        "runtimeTargets": {
-          "runtimes/unix/lib/netcoreapp2.1/System.Security.Principal.Windows.dll": {
-            "rid": "unix",
-            "assetType": "runtime",
-            "assemblyVersion": "5.0.0.0",
-            "fileVersion": "5.0.20.51904"
-          },
-          "runtimes/win/lib/netcoreapp2.1/System.Security.Principal.Windows.dll": {
-            "rid": "win",
-            "assetType": "runtime",
-            "assemblyVersion": "5.0.0.0",
-            "fileVersion": "5.0.20.51904"
-          }
-        }
-      },
+      "System.Security.Principal.Windows/5.0.0": {},
       "System.ServiceModel.Duplex/4.9.0": {
         "dependencies": {
           "System.Private.ServiceModel": "4.9.0",
           "System.ServiceModel.Primitives": "4.9.0"
         },
         "runtime": {
-          "lib/netstandard2.0/System.ServiceModel.Duplex.dll": {
+          "lib/net6.0/System.ServiceModel.Duplex.dll": {
             "assemblyVersion": "4.9.0.0",
             "fileVersion": "4.900.21.52002"
           }
@@ -843,7 +702,7 @@
           "System.ServiceModel.Primitives": "4.9.0"
         },
         "runtime": {
-          "lib/netstandard2.0/System.ServiceModel.Http.dll": {
+          "lib/net6.0/System.ServiceModel.Http.dll": {
             "assemblyVersion": "4.9.0.0",
             "fileVersion": "4.900.21.52002"
           }
@@ -855,7 +714,7 @@
           "System.ServiceModel.Primitives": "4.9.0"
         },
         "runtime": {
-          "lib/netstandard2.0/System.ServiceModel.NetTcp.dll": {
+          "lib/net6.0/System.ServiceModel.NetTcp.dll": {
             "assemblyVersion": "4.9.0.0",
             "fileVersion": "4.900.21.52002"
           }
@@ -866,11 +725,11 @@
           "System.Private.ServiceModel": "4.9.0"
         },
         "runtime": {
-          "lib/netcoreapp2.1/System.ServiceModel.Primitives.dll": {
+          "lib/net6.0/System.ServiceModel.Primitives.dll": {
             "assemblyVersion": "4.9.0.0",
             "fileVersion": "4.900.21.52002"
           },
-          "lib/netcoreapp2.1/System.ServiceModel.dll": {
+          "lib/net6.0/System.ServiceModel.dll": {
             "assemblyVersion": "4.0.0.0",
             "fileVersion": "4.900.21.52002"
           }
@@ -882,7 +741,7 @@
           "System.ServiceModel.Primitives": "4.9.0"
         },
         "runtime": {
-          "lib/netstandard2.0/System.ServiceModel.Security.dll": {
+          "lib/net6.0/System.ServiceModel.Security.dll": {
             "assemblyVersion": "4.9.0.0",
             "fileVersion": "4.900.21.52002"
           }
@@ -890,7 +749,7 @@
       },
       "System.ServiceModel.Syndication/6.0.0": {
         "runtime": {
-          "lib/netcoreapp3.1/System.ServiceModel.Syndication.dll": {
+          "lib/net6.0/System.ServiceModel.Syndication.dll": {
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.21.52210"
           }
@@ -901,13 +760,13 @@
           "System.Diagnostics.EventLog": "6.0.0"
         },
         "runtime": {
-          "lib/netcoreapp3.1/System.ServiceProcess.ServiceController.dll": {
+          "lib/net6.0/System.ServiceProcess.ServiceController.dll": {
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.21.52210"
           }
         },
         "runtimeTargets": {
-          "runtimes/win/lib/netcoreapp3.1/System.ServiceProcess.ServiceController.dll": {
+          "runtimes/win/lib/net6.0/System.ServiceProcess.ServiceController.dll": {
             "rid": "win",
             "assetType": "runtime",
             "assemblyVersion": "6.0.0.0",
@@ -916,17 +775,14 @@
         }
       },
       "System.Speech/6.0.0": {
-        "dependencies": {
-          "Microsoft.Win32.Registry": "5.0.0"
-        },
         "runtime": {
-          "lib/netcoreapp3.1/System.Speech.dll": {
+          "lib/net6.0/System.Speech.dll": {
             "assemblyVersion": "4.0.0.0",
             "fileVersion": "6.0.21.52210"
           }
         },
         "runtimeTargets": {
-          "runtimes/win/lib/netcoreapp3.1/System.Speech.dll": {
+          "runtimes/win/lib/net6.0/System.Speech.dll": {
             "rid": "win",
             "assetType": "runtime",
             "assemblyVersion": "4.0.0.0",
@@ -937,36 +793,20 @@
       "System.Text.Encoding.CodePages/6.0.0": {
         "dependencies": {
           "System.Runtime.CompilerServices.Unsafe": "6.0.0"
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/System.Text.Encoding.CodePages.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.21.52210"
-          }
-        },
-        "runtimeTargets": {
-          "runtimes/win/lib/netcoreapp3.1/System.Text.Encoding.CodePages.dll": {
-            "rid": "win",
-            "assetType": "runtime",
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.21.52210"
-          }
         }
       },
       "System.Threading.AccessControl/6.0.0": {
         "dependencies": {
-          "System.Memory": "4.5.4",
-          "System.Security.AccessControl": "6.0.0",
-          "System.Security.Principal.Windows": "5.0.0"
+          "System.Security.AccessControl": "6.0.0"
         },
         "runtime": {
-          "lib/netstandard2.0/System.Threading.AccessControl.dll": {
+          "lib/net6.0/System.Threading.AccessControl.dll": {
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.21.52210"
           }
         },
         "runtimeTargets": {
-          "runtimes/win/lib/netstandard2.0/System.Threading.AccessControl.dll": {
+          "runtimes/win/lib/net6.0/System.Threading.AccessControl.dll": {
             "rid": "win",
             "assetType": "runtime",
             "assemblyVersion": "6.0.0.0",
@@ -1028,13 +868,13 @@
           "System.Drawing.Common": "6.0.0"
         },
         "runtime": {
-          "lib/netcoreapp3.1/System.Windows.Extensions.dll": {
+          "lib/net6.0/System.Windows.Extensions.dll": {
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.21.52210"
           }
         },
         "runtimeTargets": {
-          "runtimes/win/lib/netcoreapp3.1/System.Windows.Extensions.dll": {
+          "runtimes/win/lib/net6.0/System.Windows.Extensions.dll": {
             "rid": "win",
             "assetType": "runtime",
             "assemblyVersion": "6.0.0.0",
@@ -1064,19 +904,12 @@
       "path": "microsoft.extensions.objectpool/5.0.10",
       "hashPath": "microsoft.extensions.objectpool.5.0.10.nupkg.sha512"
     },
-    "Microsoft.NETCore.Platforms/5.0.0": {
+    "Microsoft.Win32.Registry/4.7.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-VyPlqzH2wavqquTcYpkIIAQ6WdenuKoFN0BdYBbCWsclXacSOHNQn66Gt4z5NBqEYW0FAPm5rlvki9ZiCij5xQ==",
-      "path": "microsoft.netcore.platforms/5.0.0",
-      "hashPath": "microsoft.netcore.platforms.5.0.0.nupkg.sha512"
-    },
-    "Microsoft.Win32.Registry/5.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-dDoKi0PnDz31yAyETfRntsLArTlVAVzUzCIvvEDsDsucrl33Dl8pIJG06ePTJTI3tGpeyHS9Cq7Foc/s4EeKcg==",
-      "path": "microsoft.win32.registry/5.0.0",
-      "hashPath": "microsoft.win32.registry.5.0.0.nupkg.sha512"
+      "sha512": "sha512-KSrRMb5vNi0CWSGG1++id2ZOs/1QhRqROt+qgbEAdQuGjGrFcl4AOl4/exGPUYz2wUnU42nvJqon1T3U0kPXLA==",
+      "path": "microsoft.win32.registry/4.7.0",
+      "hashPath": "microsoft.win32.registry.4.7.0.nupkg.sha512"
     },
     "Microsoft.Win32.Registry.AccessControl/6.0.0": {
       "type": "package",
@@ -1169,13 +1002,6 @@
       "path": "runtime.win-x86.runtime.native.system.data.sqlclient.sni/4.4.0",
       "hashPath": "runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512"
     },
-    "System.Buffers/4.5.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-Rw7ijyl1qqRS0YQD/WycNst8hUUMgrMH4FCn1nNm27M4VxchZ1js3fVjQaANHO5f3sN4isvP4a+Met9Y4YomAg==",
-      "path": "system.buffers/4.5.1",
-      "hashPath": "system.buffers.4.5.1.nupkg.sha512"
-    },
     "System.CodeDom/6.0.0": {
       "type": "package",
       "serviceable": true,
@@ -1203,13 +1029,6 @@
       "sha512": "sha512-jXw9MlUu/kRfEU0WyTptAVueupqIeE3/rl0EZDMlf8pcvJnitQ8HeVEp69rZdaStXwTV72boi/Bhw8lOeO+U2w==",
       "path": "system.configuration.configurationmanager/6.0.1",
       "hashPath": "system.configuration.configurationmanager.6.0.1.nupkg.sha512"
-    },
-    "System.Data.DataSetExtensions/4.5.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-221clPs1445HkTBZPL+K9sDBdJRB8UN8rgjO3ztB0CQ26z//fmJXtlsr6whGatscsKGBrhJl5bwJuKSA8mwFOw==",
-      "path": "system.data.datasetextensions/4.5.0",
-      "hashPath": "system.data.datasetextensions.4.5.0.nupkg.sha512"
     },
     "System.Data.Odbc/6.0.1": {
       "type": "package",
@@ -1281,26 +1100,12 @@
       "path": "system.formats.asn1/6.0.0",
       "hashPath": "system.formats.asn1.6.0.0.nupkg.sha512"
     },
-    "System.IO.FileSystem.AccessControl/5.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-SxHB3nuNrpptVk+vZ/F+7OHEpoHUIKKMl02bUmYHQr1r+glbZQxs7pRtsf4ENO29TVm2TH3AEeep2fJcy92oYw==",
-      "path": "system.io.filesystem.accesscontrol/5.0.0",
-      "hashPath": "system.io.filesystem.accesscontrol.5.0.0.nupkg.sha512"
-    },
     "System.IO.Packaging/6.0.0": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-C7OkTRIjqIjAKu6ef/fuj8ynCZTPcTYZnvHaq48bniACgXXJogmEoIc56YCDNTc14xhsbLmgpS3KP+evbsUa2g==",
       "path": "system.io.packaging/6.0.0",
       "hashPath": "system.io.packaging.6.0.0.nupkg.sha512"
-    },
-    "System.IO.Pipes.AccessControl/5.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-P0FIsXSFNL1AXlHO9zpJ9atRUzVyoPZCkcbkYGZfXXMx9xlGA2H3HOGBwIhpKhB+h0eL3hry/z0UcfJZ+yb2kQ==",
-      "path": "system.io.pipes.accesscontrol/5.0.0",
-      "hashPath": "system.io.pipes.accesscontrol.5.0.0.nupkg.sha512"
     },
     "System.IO.Ports/6.0.0": {
       "type": "package",
@@ -1315,13 +1120,6 @@
       "sha512": "sha512-sHsESYMmPDhQuOC66h6AEOs/XowzKsbT9srMbX71TCXP58hkpn1BqBjdmKj1+DCA/WlBETX1K5WjQHwmV0Txrg==",
       "path": "system.management/6.0.0",
       "hashPath": "system.management.6.0.0.nupkg.sha512"
-    },
-    "System.Memory/4.5.4": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-1MbJTHS1lZ4bS4FmsJjnuGJOu88ZzTT2rLvrhW7Ygic+pC0NWA+3hgAen0HRdsocuQXCkUTdFn9yHJJhsijDXw==",
-      "path": "system.memory/4.5.4",
-      "hashPath": "system.memory.4.5.4.nupkg.sha512"
     },
     "System.Numerics.Vectors/4.5.0": {
       "type": "package",
@@ -1351,27 +1149,6 @@
       "path": "system.reflection.dispatchproxy/4.7.1",
       "hashPath": "system.reflection.dispatchproxy.4.7.1.nupkg.sha512"
     },
-    "System.Reflection.Emit/4.7.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-VR4kk8XLKebQ4MZuKuIni/7oh+QGFmZW3qORd1GvBq/8026OpW501SzT/oypwiQl4TvT8ErnReh/NzY9u+C6wQ==",
-      "path": "system.reflection.emit/4.7.0",
-      "hashPath": "system.reflection.emit.4.7.0.nupkg.sha512"
-    },
-    "System.Reflection.Emit.ILGeneration/4.7.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-AucBYo3DSI0IDxdUjKksBcQJXPHyoPyrCXYURW1WDsLI4M65Ar/goSHjdnHOAY9MiYDNKqDlIgaYm+zL2hA1KA==",
-      "path": "system.reflection.emit.ilgeneration/4.7.0",
-      "hashPath": "system.reflection.emit.ilgeneration.4.7.0.nupkg.sha512"
-    },
-    "System.Reflection.Emit.Lightweight/4.7.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-a4OLB4IITxAXJeV74MDx49Oq2+PsF6Sml54XAFv+2RyWwtDBcabzoxiiJRhdhx+gaohLh4hEGCLQyBozXoQPqA==",
-      "path": "system.reflection.emit.lightweight/4.7.0",
-      "hashPath": "system.reflection.emit.lightweight.4.7.0.nupkg.sha512"
-    },
     "System.Runtime.Caching/6.0.0": {
       "type": "package",
       "serviceable": true,
@@ -1392,13 +1169,6 @@
       "sha512": "sha512-AUADIc0LIEQe7MzC+I0cl0rAT8RrTAKFHl53yHjEUzNVIaUlhFY11vc2ebiVJzVBuOzun6F7FBA+8KAbGTTedQ==",
       "path": "system.security.accesscontrol/6.0.0",
       "hashPath": "system.security.accesscontrol.6.0.0.nupkg.sha512"
-    },
-    "System.Security.Cryptography.Cng/5.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-jIMXsKn94T9JY7PvPq/tMfqa6GAaHpElRDpmG+SuL+D3+sTw2M8VhnibKnN8Tq+4JqbPJ/f+BwtLeDMEnzAvRg==",
-      "path": "system.security.cryptography.cng/5.0.0",
-      "hashPath": "system.security.cryptography.cng.5.0.0.nupkg.sha512"
     },
     "System.Security.Cryptography.Pkcs/6.0.1": {
       "type": "package",

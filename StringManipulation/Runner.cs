@@ -10,7 +10,7 @@ namespace StringManipulation
     {
         private static void Main()
         {
-            Console.WriteLine(Extensions.Opposite(""));
+            //Console.WriteLine(Extensions.Opposite(""));
         }
     }
 }
