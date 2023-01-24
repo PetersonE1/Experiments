@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Peter\\Source\\Repos\\Experiments\\EncryptionAlgorithm\\EncryptionAlgorithm.csproj": {}
+    "C:\\Users\\Peter\\source\\repos\\Experiments\\EncryptionAlgorithm\\EncryptionAlgorithm.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Peter\\Source\\Repos\\Experiments\\EncryptionAlgorithm\\EncryptionAlgorithm.csproj": {
+    "C:\\Users\\Peter\\source\\repos\\Experiments\\EncryptionAlgorithm\\EncryptionAlgorithm.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Peter\\Source\\Repos\\Experiments\\EncryptionAlgorithm\\EncryptionAlgorithm.csproj",
+        "projectUniqueName": "C:\\Users\\Peter\\source\\repos\\Experiments\\EncryptionAlgorithm\\EncryptionAlgorithm.csproj",
         "projectName": "EncryptionAlgorithm",
-        "projectPath": "C:\\Users\\Peter\\Source\\Repos\\Experiments\\EncryptionAlgorithm\\EncryptionAlgorithm.csproj",
+        "projectPath": "C:\\Users\\Peter\\source\\repos\\Experiments\\EncryptionAlgorithm\\EncryptionAlgorithm.csproj",
         "packagesPath": "C:\\Users\\Peter\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Peter\\Source\\Repos\\Experiments\\EncryptionAlgorithm\\obj\\",
         "projectStyle": "PackageReference",
@@ -32,8 +32,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Peter\\Source\\Repos\\Experiments\\ImageDataStorage\\ImageDataStorage.csproj": {
-                "projectPath": "C:\\Users\\Peter\\Source\\Repos\\Experiments\\ImageDataStorage\\ImageDataStorage.csproj"
+              "C:\\Users\\Peter\\source\\repos\\Experiments\\ImageDataStorage\\ImageDataStorage.csproj": {
+                "projectPath": "C:\\Users\\Peter\\source\\repos\\Experiments\\ImageDataStorage\\ImageDataStorage.csproj"
               }
             }
           }
@@ -73,12 +73,12 @@
         }
       }
     },
-    "C:\\Users\\Peter\\Source\\Repos\\Experiments\\ImageDataStorage\\ImageDataStorage.csproj": {
+    "C:\\Users\\Peter\\source\\repos\\Experiments\\ImageDataStorage\\ImageDataStorage.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Peter\\Source\\Repos\\Experiments\\ImageDataStorage\\ImageDataStorage.csproj",
+        "projectUniqueName": "C:\\Users\\Peter\\source\\repos\\Experiments\\ImageDataStorage\\ImageDataStorage.csproj",
         "projectName": "ImageDataStorage",
-        "projectPath": "C:\\Users\\Peter\\Source\\Repos\\Experiments\\ImageDataStorage\\ImageDataStorage.csproj",
+        "projectPath": "C:\\Users\\Peter\\source\\repos\\Experiments\\ImageDataStorage\\ImageDataStorage.csproj",
         "packagesPath": "C:\\Users\\Peter\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Peter\\Source\\Repos\\Experiments\\ImageDataStorage\\obj\\",
         "projectStyle": "PackageReference",
