@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "LS0/L02C6KooUpK3GmrGk5LZEVz0UJlafRNka34ALVdpsVomYwaeWD/NJXIGUTAWJjW+1yXsoxoDVn0XXCPCYQ==",
+=======
+  "dgSpecHash": "TkYI+cboOsgGeNQ8mlE5i46K/pzHlHR4P7xlNXYEBBDavU730E0uPlOriZlVhd6IIVpLI+5l0B0Bptpwg867NA==",
+>>>>>>> 5ddfbd8c6c0e10c71ea81fe4f4f6f30e7ff900ab
   "success": true,
   "projectFilePath": "C:\\Users\\Peter\\source\\repos\\Experiments\\EncryptionAlgorithm\\EncryptionAlgorithm.csproj",
   "expectedPackageFiles": [

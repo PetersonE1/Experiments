@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "mny8+RiHCwuINoE9Vx6g0C6Y6dPLpglGJGRopirgJe0RxcpyCV3534+Udvlld4/h2V46A5RGYunI64sbbSbHDw==",
+=======
+  "dgSpecHash": "emkZQ1s3LHOPj5fMW4Z5ziNJ5VGQ7FaL4qsIU4CjTwsPRT01hwMSk7I0u66PbwZNaTY/NrDNW1q1faijN5Dy1w==",
+>>>>>>> 5ddfbd8c6c0e10c71ea81fe4f4f6f30e7ff900ab
   "success": true,
   "projectFilePath": "C:\\Users\\Peter\\source\\repos\\Experiments\\TimeBased\\TimeBased.csproj",
   "expectedPackageFiles": [
