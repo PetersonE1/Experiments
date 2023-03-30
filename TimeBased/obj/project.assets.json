@@ -3022,11 +3022,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Peter\\source\\repos\\Experiments\\TimeBased\\TimeBased.csproj",
+      "projectUniqueName": "C:\\Users\\Peter\\Source\\Repos\\Experiments\\TimeBased\\TimeBased.csproj",
       "projectName": "TimeBased",
-      "projectPath": "C:\\Users\\Peter\\source\\repos\\Experiments\\TimeBased\\TimeBased.csproj",
+      "projectPath": "C:\\Users\\Peter\\Source\\Repos\\Experiments\\TimeBased\\TimeBased.csproj",
       "packagesPath": "C:\\Users\\Peter\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Peter\\source\\repos\\Experiments\\TimeBased\\obj\\",
+      "outputPath": "C:\\Users\\Peter\\Source\\Repos\\Experiments\\TimeBased\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3041,8 +3041,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
-        "C:\\Users\\Peter\\.nuget\\packages": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -3082,8 +3080,16 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\Peter\\Source\\Repos\\Experiments\\TimeBased\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
