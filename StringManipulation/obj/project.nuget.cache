@@ -1,6 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "z7hlCUqBgFthQw//c83GWafV/325BOhBhg8ZdravUMaK05DRdm9co6/RKbkQBpcmvIDcUIZLTOFqc4p/INqY4g==",
+=======
+<<<<<<< HEAD
+  "dgSpecHash": "i6wm8NHWONa/8w2pnzLwVfPmbpcy7Xy4rbVCI61IGWGMjJREz9OejyHp1b0hUdCEelcS8rarRq0WaFE3Lomqtg==",
+=======
+  "dgSpecHash": "C9WliVXKAf0AMU7lZGkWYv3KIoK813G6G26pBCJSWi1y8sTbLiF1sF4yO0IDm/+ca0gOY2+z8swrlm0b+Z34dA==",
+>>>>>>> 5ddfbd8c6c0e10c71ea81fe4f4f6f30e7ff900ab
+>>>>>>> d7ba9c909e0e3bbcc8c13410201593561c515902
   "success": true,
   "projectFilePath": "C:\\Users\\Peter\\Source\\Repos\\Experiments\\StringManipulation\\StringManipulation.csproj",
   "expectedPackageFiles": [],

@@ -1,6 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "c/mT2LoTiqB8kxWPtitzU5fcGXoFlk1ioTI6LAaNFPzxNWbEOG3K/yaHUIJ/PK/Gb2Y2ReixbhKk2P+HaV4uEA==",
+=======
+<<<<<<< HEAD
+  "dgSpecHash": "/JNmbrbI8uW8dF0x+1+rleVuY7pwFzWL1XQrNkRSYYzCSKTuXBA0qdaldvMPTD/4sRInUIKBW8raokfn3fL9XA==",
+=======
+  "dgSpecHash": "JIDiH02BDZ8WNh2DyS8pk6dUMSESJyuCXP09Wix0WRHdvmzbO7b4tESlUpKVF16jclj9CCli9bCTWZHdkjF54Q==",
+>>>>>>> 5ddfbd8c6c0e10c71ea81fe4f4f6f30e7ff900ab
+>>>>>>> d7ba9c909e0e3bbcc8c13410201593561c515902
   "success": true,
   "projectFilePath": "C:\\Users\\Peter\\Source\\Repos\\Experiments\\ImageDataStorage\\ImageDataStorage.csproj",
   "expectedPackageFiles": [
