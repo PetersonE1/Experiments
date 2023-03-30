@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Peter\\Source\\Repos\\Experiments\\StringManipulation\\StringManipulation.csproj": {}
+    "C:\\Users\\Peter\\source\\repos\\Experiments\\StringManipulation\\StringManipulation.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Peter\\Source\\Repos\\Experiments\\StringManipulation\\StringManipulation.csproj": {
+    "C:\\Users\\Peter\\source\\repos\\Experiments\\StringManipulation\\StringManipulation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Peter\\Source\\Repos\\Experiments\\StringManipulation\\StringManipulation.csproj",
+        "projectUniqueName": "C:\\Users\\Peter\\source\\repos\\Experiments\\StringManipulation\\StringManipulation.csproj",
         "projectName": "StringManipulation",
-        "projectPath": "C:\\Users\\Peter\\Source\\Repos\\Experiments\\StringManipulation\\StringManipulation.csproj",
+        "projectPath": "C:\\Users\\Peter\\source\\repos\\Experiments\\StringManipulation\\StringManipulation.csproj",
         "packagesPath": "C:\\Users\\Peter\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Peter\\Source\\Repos\\Experiments\\StringManipulation\\obj\\",
+        "outputPath": "C:\\Users\\Peter\\source\\repos\\Experiments\\StringManipulation\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
