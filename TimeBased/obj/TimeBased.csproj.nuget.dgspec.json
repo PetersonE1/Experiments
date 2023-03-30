@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Peter\\source\\repos\\Experiments\\TimeBased\\TimeBased.csproj": {}
+    "C:\\Users\\Peter\\Source\\Repos\\Experiments\\TimeBased\\TimeBased.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Peter\\source\\repos\\Experiments\\TimeBased\\TimeBased.csproj": {
+    "C:\\Users\\Peter\\Source\\Repos\\Experiments\\TimeBased\\TimeBased.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Peter\\source\\repos\\Experiments\\TimeBased\\TimeBased.csproj",
+        "projectUniqueName": "C:\\Users\\Peter\\Source\\Repos\\Experiments\\TimeBased\\TimeBased.csproj",
         "projectName": "TimeBased",
-        "projectPath": "C:\\Users\\Peter\\source\\repos\\Experiments\\TimeBased\\TimeBased.csproj",
+        "projectPath": "C:\\Users\\Peter\\Source\\Repos\\Experiments\\TimeBased\\TimeBased.csproj",
         "packagesPath": "C:\\Users\\Peter\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Peter\\Source\\Repos\\Experiments\\TimeBased\\obj\\",
         "projectStyle": "PackageReference",

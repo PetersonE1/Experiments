@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Peter\\source\\repos\\Experiments\\GCloud_Test\\GCloud_Test.csproj": {}
+    "C:\\Users\\Peter\\Source\\Repos\\Experiments\\GCloud_Test\\GCloud_Test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Peter\\source\\repos\\Experiments\\GCloud_Test\\GCloud_Test.csproj": {
+    "C:\\Users\\Peter\\Source\\Repos\\Experiments\\GCloud_Test\\GCloud_Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Peter\\source\\repos\\Experiments\\GCloud_Test\\GCloud_Test.csproj",
+        "projectUniqueName": "C:\\Users\\Peter\\Source\\Repos\\Experiments\\GCloud_Test\\GCloud_Test.csproj",
         "projectName": "GCloud_Test",
-        "projectPath": "C:\\Users\\Peter\\source\\repos\\Experiments\\GCloud_Test\\GCloud_Test.csproj",
+        "projectPath": "C:\\Users\\Peter\\Source\\Repos\\Experiments\\GCloud_Test\\GCloud_Test.csproj",
         "packagesPath": "C:\\Users\\Peter\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Peter\\Source\\Repos\\Experiments\\GCloud_Test\\obj\\",
         "projectStyle": "PackageReference",
