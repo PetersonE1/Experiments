@@ -14,7 +14,6 @@ namespace GCloud_Test.Pages
 
         public void OnGet()
         {
-
         }
     }
 }
