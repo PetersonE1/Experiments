@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimeBased", "TimeBased\Time
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MathUtils", "MathUtils\MathUtils.csproj", "{19A982C5-D13A-4A52-BEC9-729E7C4AFB25}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MidiUtils", "MidiUtils\MidiUtils.csproj", "{9F3EA64D-80B7-4C15-83CB-59185261BAF1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MidiUtils", "MidiUtils\MidiUtils.csproj", "{9F3EA64D-80B7-4C15-83CB-59185261BAF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncTesting", "AsyncTesting\AsyncTesting.csproj", "{0DEE0036-20F2-417D-8C3F-45CE9DF25878}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{9F3EA64D-80B7-4C15-83CB-59185261BAF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F3EA64D-80B7-4C15-83CB-59185261BAF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F3EA64D-80B7-4C15-83CB-59185261BAF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DEE0036-20F2-417D-8C3F-45CE9DF25878}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DEE0036-20F2-417D-8C3F-45CE9DF25878}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DEE0036-20F2-417D-8C3F-45CE9DF25878}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DEE0036-20F2-417D-8C3F-45CE9DF25878}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
