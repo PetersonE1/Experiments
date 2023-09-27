@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MathUtils", "MathUtils\Math
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MidiUtils", "MidiUtils\MidiUtils.csproj", "{9F3EA64D-80B7-4C15-83CB-59185261BAF1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncTesting", "AsyncTesting\AsyncTesting.csproj", "{0DEE0036-20F2-417D-8C3F-45CE9DF25878}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncTesting", "AsyncTesting\AsyncTesting.csproj", "{0DEE0036-20F2-417D-8C3F-45CE9DF25878}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "MyFirstSql", "MyFirstSql\MyFirstSql.sqlproj", "{CE87BAA0-CEAA-4FC9-85C9-C5850116D097}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,12 @@ Global
 		{0DEE0036-20F2-417D-8C3F-45CE9DF25878}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0DEE0036-20F2-417D-8C3F-45CE9DF25878}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0DEE0036-20F2-417D-8C3F-45CE9DF25878}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE87BAA0-CEAA-4FC9-85C9-C5850116D097}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE87BAA0-CEAA-4FC9-85C9-C5850116D097}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE87BAA0-CEAA-4FC9-85C9-C5850116D097}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{CE87BAA0-CEAA-4FC9-85C9-C5850116D097}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE87BAA0-CEAA-4FC9-85C9-C5850116D097}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE87BAA0-CEAA-4FC9-85C9-C5850116D097}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

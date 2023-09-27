@@ -1,6 +1,8 @@
-﻿using GCloud_Test.Pages;
+﻿using GCloud_Test.Models;
+using GCloud_Test.Pages;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Data.Common;
 
 namespace GCloud_Test.Controllers
 {
@@ -9,10 +11,12 @@ namespace GCloud_Test.Controllers
     public class OwnerController : ControllerBase
     {
         private readonly ILogger<OwnerController> _logger;
+        private readonly SampleObjectContext _context;
 
-        public OwnerController(ILogger<OwnerController> logger)
+        public OwnerController(ILogger<OwnerController> logger, SampleObjectContext context)
         {
             _logger = logger;
+            _context = context;
         }
 
         //[HttpGet]
@@ -45,6 +49,29 @@ namespace GCloud_Test.Controllers
                 _logger.LogError($"Something went wrong inside TestAction: {ex.Message}");
                 return StatusCode(500, "Internal server error");
             }
+        }
+
+        public IActionResult AddToDatabase(int id, string name, string description)
+        {
+            SampleObject obj = new SampleObject()
+            {
+                Id = id,
+                Name = name,
+                Description = description
+            };
+            _context.SampleObjects.Add(obj);
+            _context.SaveChangesAsync();
+            return Ok();
+        }
+
+        public IActionResult GetDatabase()
+        {
+            string s = string.Empty;
+            foreach (var obj in _context.SampleObjects)
+            {
+                s += obj.ToString() + "\n\n";
+            }
+            return Ok(s);
         }
     }
 }
