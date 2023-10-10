@@ -1,4 +1,6 @@
 .vs
 obj
 bin
-/MyFirstSql/MyFirstSql
+/MyFirstSql/
+.jfm
+/MyFirstSql/MyFirstSql.jfm
