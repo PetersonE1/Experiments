@@ -1,5 +1,6 @@
 ﻿using MathNet.Numerics.LinearAlgebra;
 using MathNet.Numerics.LinearAlgebra.Double;
+using MathNet.Numerics.Random;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -77,7 +78,35 @@ namespace MathUtils
                 { m1*v1 - m2*v2 }
             });
 
+            Console.WriteLine("ax + by = c");
+            Console.WriteLine("Solving for x, y given a, b, c");
             Console.WriteLine(A.Solve(B));
+
+            Matrix<double> A1 = DenseMatrix.OfArray(new double[,]
+            {
+                { m1, m2 },
+                { m1, -m2 }
+            });
+
+            Matrix<double> B1 = DenseMatrix.OfArray(new double[,]
+            {
+                { m1, m2 },
+                { -m1, m2 }
+            });
+
+            Console.WriteLine("ax + by = az + bw");
+            Console.WriteLine("Solving for x, y, z, w given a, b ");
+            Console.WriteLine(A1.Solve(B1));
+
+            Matrix<double> C1 = DenseMatrix.OfArray(new double[,]
+            {
+                { v1 },
+                { v2 }
+            });
+
+            Console.WriteLine("A*B = C");
+            Console.WriteLine("Solving for C (v1f, v2f) via matrix multiplication of previous matrix and [v1,--v2]");
+            Console.WriteLine(A1.Solve(B1) * C1);
         }
     }
 }

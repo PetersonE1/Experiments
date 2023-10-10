@@ -17,7 +17,7 @@ namespace MathUtils
                 Console.WriteLine(i);
             }*/
 
-            Matrices.Momentum(5, 12, 10, -4);
+            Matrices.Momentum(3, 8, 10, -4);
         }
     }
 }
