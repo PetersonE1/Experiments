@@ -17,7 +17,7 @@ namespace MathUtils
                 Console.WriteLine(i);
             }*/
 
-            Matrices.SwapTest();
+            Matrices.Momentum(5, 12, 10, -4);
         }
     }
 }

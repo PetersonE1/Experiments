@@ -49,5 +49,35 @@ namespace MathUtils
             Vector3 b = new Vector3(0, -1, 1);
             Console.WriteLine(Math.Acos(Vector3.Dot(a, b) / (a.Length() * b.Length())) * (360f / (2 * Math.PI)));
         }
+
+        public static void HomeworkTest()
+        {
+            Matrix<double> A = DenseMatrix.OfArray(new double[,]
+            {
+                { 2, 3 },
+                { 3, 2 }
+            });
+
+            MathNet.Numerics.LinearAlgebra.Vector<double> B = DenseVector.OfArray(new double[] { 16, 14 });
+
+            Console.WriteLine(A.Solve(B));
+        }
+
+        public static void Momentum(double m1, double m2, double v1, double v2)
+        {
+            Matrix<double> A = DenseMatrix.OfArray(new double[,]
+            {
+                { m1, m2 },
+                { -m1, m2 }
+            });
+
+            Matrix<double> B = DenseMatrix.OfArray(new double[,]
+            {
+                { m1*v1 + m2*v2 },
+                { m1*v1 - m2*v2 }
+            });
+
+            Console.WriteLine(A.Solve(B));
+        }
     }
 }
