@@ -3,6 +3,7 @@ using MathNet.Numerics.LinearAlgebra.Double;
 using MathNet.Numerics.Random;
 using System;
 using System.Collections.Generic;
+using System.Data.SqlTypes;
 using System.Linq;
 using System.Numerics;
 using System.Text;
@@ -107,6 +108,69 @@ namespace MathUtils
             Console.WriteLine("A*B = C");
             Console.WriteLine("Solving for C (v1f, v2f) via matrix multiplication of previous matrix and [v1,--v2]");
             Console.WriteLine(A1.Solve(B1) * C1);
+        }
+
+        public static void Temp()
+        {
+            Matrix<double> A = DenseMatrix.OfArray(new double[,]
+            {
+                { 1, 2, 3 },
+                { 0, 0, 4 },
+                { 0, 0, 5 }
+            });
+
+            Console.WriteLine(A);
+            Console.WriteLine(A.RotateRight());
+            Console.WriteLine(A.RotateAround());
+            Console.WriteLine(A.RotateLeft());
+        }
+
+        public static Matrix<T> GenerateReverseIdentity<T>(int size) where T : struct, IEquatable<T>, IFormattable
+        {
+            T[,] values = new T[size, size];
+            for (int i = 0; i < size; i++)
+                for (int j = 0; j < size; j++)
+                    values[i, j] = Matrix<T>.Zero;
+
+            for (int i = 0; i < size; i++)
+                values[i, (size - 1) - i] = Matrix<T>.One;
+
+            Matrix<T> matrix = CreateMatrix.DenseOfArray(values);
+            return matrix;
+        }
+
+        // Extensions
+        public static Matrix<T> FlipVertical<T>(this Matrix<T> A) where T : struct, IEquatable<T>, IFormattable
+        {
+            if (A.RowCount != A.ColumnCount)
+                throw new ArgumentException("Provided matrix was not square");
+
+            Matrix<T> B = GenerateReverseIdentity<T>(A.ColumnCount);
+            return B * A;
+        }
+
+        public static Matrix<T> FlipHorizontal<T>(this Matrix<T> A) where T : struct, IEquatable<T>, IFormattable
+        {
+            if (A.RowCount != A.ColumnCount)
+                throw new ArgumentException("Provided matrix was not square");
+
+            Matrix<T> B = GenerateReverseIdentity<T>(A.ColumnCount);
+            return A * B;
+        }
+
+        public static Matrix<T> RotateRight<T>(this Matrix<T> A) where T : struct, IEquatable<T>, IFormattable
+        {
+            return A.Transpose().FlipHorizontal();
+        }
+
+        public static Matrix<T> RotateLeft<T>(this Matrix<T> A) where T : struct, IEquatable<T>, IFormattable
+        {
+            return A.Transpose().FlipVertical();
+        }
+
+        public static Matrix<T> RotateAround<T>(this Matrix<T> A) where T : struct, IEquatable<T>, IFormattable
+        {
+            return A.FlipVertical().FlipHorizontal();
         }
     }
 }
