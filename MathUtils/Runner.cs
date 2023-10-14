@@ -17,7 +17,7 @@ namespace MathUtils
                 Console.WriteLine(i);
             }*/
 
-            Matrices.Temp();
+            Matrices.ConvergenceTest();
         }
     }
 }

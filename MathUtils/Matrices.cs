@@ -110,7 +110,7 @@ namespace MathUtils
             Console.WriteLine(A1.Solve(B1) * C1);
         }
 
-        public static void Temp()
+        public static void RotationTest()
         {
             Matrix<double> A = DenseMatrix.OfArray(new double[,]
             {
@@ -123,6 +123,26 @@ namespace MathUtils
             Console.WriteLine(A.RotateRight());
             Console.WriteLine(A.RotateAround());
             Console.WriteLine(A.RotateLeft());
+        }
+
+        public static void Temp()
+        {
+            Matrix<double> A = DenseMatrix.OfArray(new double[,]
+            {
+                { 0, -1 },
+                { 1,  0 }
+            });
+
+            Matrix<double> B = DenseMatrix.Create(4, 4, 0);
+            B.SetSubMatrix(0, 0, A);
+            B.SetSubMatrix(B.RowCount / 2, B.ColumnCount / 2, A);
+
+            Matrix<double> C = DenseMatrix.Create(8, 8, 0);
+            C.SetSubMatrix(0, 0, B);
+            C.SetSubMatrix(C.RowCount / 2, C.ColumnCount / 2, B);
+
+            Console.WriteLine(C);
+            Console.WriteLine(C * C);
         }
 
         public static Matrix<T> GenerateReverseIdentity<T>(int size) where T : struct, IEquatable<T>, IFormattable
