@@ -1,7 +1,7 @@
 ﻿using AsyncTesting;
 using BenchmarkDotNet.Running;
 
-ConsoleTest test = new ConsoleTest();
+/*ConsoleTest test = new ConsoleTest();
 
 Task read = Task.CompletedTask;
 while (true)
@@ -9,4 +9,6 @@ while (true)
     if (read.IsCompleted)
         _ = test.ReadConsole();
     await test.WriteToConsole();
-}
+}*/
+
+BenchmarkRunner.Run<SequenceTest>();

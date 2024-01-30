@@ -10,7 +10,7 @@ namespace AsyncTesting
     [MemoryDiagnoser]
     public class SequenceTest
     {
-        [Params(100, 1000, 10000)]
+        [Params(100, 1000)]
         public int iterations;
 
         [Benchmark]

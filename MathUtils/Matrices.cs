@@ -125,7 +125,7 @@ namespace MathUtils
             Console.WriteLine(A.RotateLeft());
         }
 
-        public static void Temp()
+        public static void ConvergenceTest()
         {
             Matrix<double> A = DenseMatrix.OfArray(new double[,]
             {
