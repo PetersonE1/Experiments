@@ -8,11 +8,11 @@ using Wintellect.Interop.Sound;
 
 namespace User32_Testing
 {
-    public static class BasicMacro
+    public static class Caller
     {
         public static void Run()
         {
-            DialogResult result = Message.DisplayMessageBox("Title", "Message", MessageBoxType.Ok, MessageBoxIcon.Stop);
+            DialogResult result = Message.DisplayMessageBox("Title", "Message", MessageBoxType.Ok, MessageBoxIcon.Error);
             Console.WriteLine(result);
         }
     }
