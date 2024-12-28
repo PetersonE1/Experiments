@@ -13,6 +13,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GCloud_Test", "GCloud_Test\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimeBased", "TimeBased\TimeBased.csproj", "{5448F6EA-961D-48A2-B067-60D581F14657}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControllerInput", "ControllerInput\ControllerInput.csproj", "{8F5CD319-98B8-4D89-B33B-43CF92B9C33C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpeechSynthesis", "SpeechSynthesis\SpeechSynthesis.csproj", "{810F42AD-458C-430B-B175-2D6D495CCF62}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{5448F6EA-961D-48A2-B067-60D581F14657}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5448F6EA-961D-48A2-B067-60D581F14657}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5448F6EA-961D-48A2-B067-60D581F14657}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F5CD319-98B8-4D89-B33B-43CF92B9C33C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F5CD319-98B8-4D89-B33B-43CF92B9C33C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F5CD319-98B8-4D89-B33B-43CF92B9C33C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F5CD319-98B8-4D89-B33B-43CF92B9C33C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{810F42AD-458C-430B-B175-2D6D495CCF62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{810F42AD-458C-430B-B175-2D6D495CCF62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{810F42AD-458C-430B-B175-2D6D495CCF62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{810F42AD-458C-430B-B175-2D6D495CCF62}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
