@@ -9,10 +9,7 @@
 
   <ItemGroup>
     <Reference Include="Midi">
-      <HintPath>..\..\MidiKeyboard\lib\Midi.dll</HintPath>
-    </Reference>
-    <Reference Include="MidiUI">
-      <HintPath>..\..\MidiKeyboard\lib\MidiUI.dll</HintPath>
+      <HintPath>..\..\..\..\Lib\Midi.dll</HintPath>
     </Reference>
   </ItemGroup>
 

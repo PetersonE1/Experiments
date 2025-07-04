@@ -17,7 +17,16 @@ namespace MathUtils
                 Console.WriteLine(i);
             }*/
 
-            Matrices.RotationTest();
+            //Matrices.RotationTest();
+
+            double[] inputs = new double[] { 0.1, 0.2 };
+            double[] biases = new double[] { 0.3, 0.1, 0.4 };
+            double[,] weights = new double[,]
+            {
+                { 0.2, 0.4, 0.7 },
+                { 0.5, 0.6, 0.1 }
+            };
+            Console.WriteLine(Matrices.LayerTest(inputs, weights, biases));
         }
     }
 }

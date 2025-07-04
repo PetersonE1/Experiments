@@ -25,6 +25,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinDLL_Testing", "User32_Te
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SDL_Test", "SDL_Test\SDL_Test.csproj", "{07302D5F-C9DD-48D2-A118-070B237BD5EA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabStreamingLayerReader", "LabStreamingLayerReader\LabStreamingLayerReader.csproj", "{CA7625F4-12B1-49EB-9E51-054AAF796D8B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -77,6 +79,10 @@ Global
 		{07302D5F-C9DD-48D2-A118-070B237BD5EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07302D5F-C9DD-48D2-A118-070B237BD5EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07302D5F-C9DD-48D2-A118-070B237BD5EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA7625F4-12B1-49EB-9E51-054AAF796D8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA7625F4-12B1-49EB-9E51-054AAF796D8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA7625F4-12B1-49EB-9E51-054AAF796D8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA7625F4-12B1-49EB-9E51-054AAF796D8B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

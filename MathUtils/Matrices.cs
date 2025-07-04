@@ -159,6 +159,27 @@ namespace MathUtils
             return matrix;
         }
 
+        public static Matrix<double> LayerTest(Matrix<double> inputs, Matrix<double> layer)
+        {
+            return inputs * layer;
+        }
+
+        public static Matrix<double> LayerTest(double[] inputs, double[,] weights, double[] biases)
+        {
+            Matrix<double> m_inputs = DenseMatrix.OfColumnMajor(1, inputs.Length + 1, inputs);
+            m_inputs.SetColumn(inputs.Length, new double[] { 1 });
+            Console.WriteLine(m_inputs);
+
+            Matrix<double> m_layer = DenseMatrix.OfArray(weights);
+            m_layer = m_layer.InsertRow(inputs.Length, DenseVector.OfArray(biases));
+            double[] zerosExceptForEnd = new double[inputs.Length + 1];
+            zerosExceptForEnd[inputs.Length] = 1;
+            m_layer = m_layer.InsertColumn(biases.Length, DenseVector.OfArray(zerosExceptForEnd));
+            Console.WriteLine(m_layer);
+
+            return LayerTest(m_inputs, m_layer);
+        }
+
         // Extensions
         public static Matrix<T> FlipVertical<T>(this Matrix<T> A) where T : struct, IEquatable<T>, IFormattable
         {
